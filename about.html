@@ -3,37 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ကျွန်ုပ်တို့အကြောင်း</title>
+    <title>ကျွန်ုပ်၏ ဝဘ်ဆိုက်</title>
     <style>
-        body { font-family: 'Pyidaungsu', sans-serif; margin: 0; padding: 0; background-color: aqua; color: #333333; }
-        header { background-color: #008b8b; color: white; padding: 20px; text-align: center; }
-        nav { background-color: #00ced1; text-align: center; padding: 10px; }
-        nav a { color: white; text-decoration: none; padding: 10px 20px; display: inline-block; font-weight: bold; }
-        nav a:hover { background-color: #008b8b; }
-        .container { max-width: 600px; margin: 20px auto; padding: 25px; background-color: white; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-radius: 8px; margin-bottom: 80px; }
-        footer { background-color: #008b8b; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+        body {
+            font-family: 'Pyidaungsu', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: aqua; 
+            color: #333333; 
+        }
+        header {
+            background-color: #008b8b; 
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #00ced1; 
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #008b8b;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            /* အောက်ခြေ Footer နှင့် မလွတ်ပါက ရွှေ့ရန် margin-bottom ထည့်ထားသည် */
+            margin-bottom: 80px; 
+        }
+        /* ဓာတ်ပုံအတွက် CSS ပြင်ဆင်ချက် */
+        .web-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-top: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        footer {
+            background-color: #008b8b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>ကျွန်ုပ်တို့အကြောင်း</h1>
+        <h1>ကျွန်ုပ်၏ ဝဘ်ဆိုက်မှ ကြိုဆိုပါသည်</h1>
     </header>
 
     <nav>
-        <!-- မီနူးဘားကို ပုံစံတူ ထည့်သွင်းထားသည် -->
-        <a href="index.html">ပင်မစာမျက်နှာ</a>
-        <a href="about.html">ကျွန်ုပ်တို့အကြောင်း</a>
+        <a href="#">ပင်မစာမျက်နှာ</a>
+        <a href="#">ကျွန်ုပ်တို့အကြောင်း</a>
+        <a href="#">ဝန်ဆောင်မှုများ</a>
+        <a href="#">ဆက်သွယ်ရန်</a>
     </nav>
 
     <div class="container">
-        <h2>ကျွန်ုပ်တို့၏ ရည်ရွယ်ချက်</h2>
-        <p>ဒါကတော့ ဒုတိယစာမျက်နှာ ဖြစ်တဲ့ About Us Page ဖြစ်ပါတယ်။</p>
-        <p>ဤနေရာတွင် သင့်အကြောင်း သို့မဟုတ် သင့်လုပ်ငန်းအကြောင်းများကို အသေးစိတ် ရေးသားနိုင်ပါသည်။</p>
+        <h2>မင်္ဂလာပါ</h2>
+        <p>ဒါကတော့ ဝဘ်ဆိုက်ထဲကို ဓာတ်ပုံတစ်ပုံ ထည့်သွင်းပြသထားတဲ့ ပုံစံဖြစ်ပါတယ်။</p>
+        
+        <!-- ဓာတ်ပုံထည့်သည့်နေရာ -->
+        <img src="C:\Users\KS ( Mobile )\Pictures\Screenshots\KS.png"နမူနာဓာတ်ပုံ" class="web-image">
+        
+        <p style="margin-top: 15px;">သင့်ကွန်ပျူတာထဲရှိ ဓာတ်ပုံကို သုံးချင်ပါက `src="https://picsum.photos"` နေရာတွင် `src="photo.jpg"` ဟု ပြောင်းလဲနိုင်ပါသည်။ (ဓာတ်ပုံသည် `index.html` ဖိုင်နှင့် Folder တစ်ခုတည်းတွင် ရှိနေရပါမည်)</p>
     </div>
 
     <footer>
-        <p>&copy; 2026 ကျွန်ုပ်၏ ဝဘ်ဆိုက်။</p>
+        <p>&copy; 2026 ကျွန်ုပ်၏ ဝဘ်ဆိုက်။ All rights reserved.</p>
     </footer>
 
 </body>
